@@ -8,7 +8,7 @@ console.log(process.env.NODE_ENV);
 const allowedOrigin =
   process.env.NODE_ENV === "development"
     ? "http://localhost:5500" // Development frontend URL
-    : "https://a89529294.github.io/yongpei-water-purification/"; // Production frontend URL
+    : "https://a89529294.github.io"; // Production frontend URL
 
 const corsOptions = {
   origin: allowedOrigin,

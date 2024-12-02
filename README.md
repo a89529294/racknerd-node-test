@@ -1,0 +1,1 @@
+- on vps, this project is in /var/www
